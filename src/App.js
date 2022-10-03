@@ -10,6 +10,11 @@ const H1 = styled.h1`
   color: palevioletred;
 `;
 
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
+
 function App() {
   return (
     <div className="App">
@@ -19,8 +24,10 @@ function App() {
       </nav>
       <Switch>
         <Route path="/table" component={Table}>
-          <H1>This is a Table</H1>
-          <Table />
+          <Wrapper>
+            <H1>This is a Table</H1>
+            <Table />
+          </Wrapper>
         </Route>
         <Route path="/charts" component={Chart}>
           <H1>This is a Chart</H1>
