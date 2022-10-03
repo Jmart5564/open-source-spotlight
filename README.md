@@ -1,4 +1,6 @@
-# Spotlight Open Source & Using Documentation
+# Reflection  
+  
+  Lately I've been exploring open-source libraries and have really enjoyed learning about them and also the frustrations that come with bad documentation. I chose to use styled-components instead of one of the three that were suggested because this is a library that a company I have a good chance getting hired at uses so I wanted to get practice with it. I liked this spotlight because it really made me realize that I can find a library for most things, including data visualization.
 
 ## Getting Started
 
