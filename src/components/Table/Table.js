@@ -15,7 +15,7 @@ export default function Table() {
  
   return (
     <RTable data={users}>
-      <Column width={100} sortable fixed resizable>
+      <Column width={50} sortable fixed resizable>
         <HeaderCell>ID</HeaderCell>
         <Cell dataKey="id" />
       </Column> 
